@@ -1,10 +1,14 @@
+import React, { useEffect,useState } from 'react';
 import UseGeolocation from './components/GetGelocation';
+
 import './style.css';
 
 function App() {
-  return (
+
+    return (
     <div className="App">
       <main>    
+        
         <UseGeolocation />
       </main>
       
