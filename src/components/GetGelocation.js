@@ -43,8 +43,8 @@ const UseGeolocation = () =>{
 
    
 
-        return <i class="fas fa-cloud-sun"></i>;
-    }
+        
+    
 
     return (
         <main className="main-box">
