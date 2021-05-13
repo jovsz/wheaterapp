@@ -18,7 +18,7 @@ const UseGeolocation = () =>{
     const[weather,setWeather] = useState({});
     const[value, setValue] = useState(0);
     
-    /*Se solicita el posicionamiento en el navegador y posteriormente se solicita a la api Openweather la informacion de la ubicacion */
+   
    /*Key de la Api de Openweather */
     const api = {
         key: "008188f258c81bafdf880fc394d65415",
@@ -41,22 +41,7 @@ const UseGeolocation = () =>{
           });
     },[]);
 
-    function convert(props) {
-
-        if (!props.warn) {
-          return null;
-        }
-      
-        return (
-          <div className="warning">
-        
-          </div>
-        );
-      }
-
-    function setIcon (props){
-        console.log(props)
-        
+   
 
         return <i class="fas fa-cloud-sun"></i>;
     }
